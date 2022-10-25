@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="dirt 1" tilewidth="32" tileheight="32" tilecount="225" columns="15">
+  <image source="../image/dirt 1.png" width="480" height="480"/>
+ </tileset>
+ <tileset firstgid="226" source="../../../../../Desktop/dirtblock.tsx"/>
+ <tileset firstgid="451" source="../../../../../Desktop/grassblock.tsx"/>
+ <tileset firstgid="676" source="../../../../../Desktop/treasureblock.tsx"/>
+ <layer id="1" name="圖塊層 1" width="8" height="8">
+  <data encoding="csv">
+451,451,226,676,226,451,451,451,
+451,451,676,226,676,451,451,451,
+451,451,226,676,226,451,451,451,
+451,451,451,452,226,451,451,451,
+451,451,226,676,226,676,226,451,
+451,451,676,451,676,451,676,451,
+451,451,226,676,226,676,226,451,
+451,451,451,451,451,451,451,451
+</data>
+ </layer>
+</map>

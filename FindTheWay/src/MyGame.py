@@ -182,7 +182,7 @@ class MyGame(PaiaGame):
         """
         # TODO add music or sound
         # 獲取圖片路徑
-        bg_path = path.join(ASSET_PATH, "image/img.png")
+        bg_path = path.join(ASSET_PATH, "image/img.jpg")
         background = create_asset_init_data(
             image_id="background"
             , width=WIDTH
